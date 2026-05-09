@@ -1,0 +1,417 @@
+<!-- =========================
+PREMIUM CONSULTATION SECTION
+========================= -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+
+<section class="consultation-section">
+
+    <div class="consultation-wrapper">
+
+        <!-- LEFT FORM -->
+        <div class="consultation-form-box">
+
+            <span class="mini-tag">
+                Book Consultation
+            </span>
+
+            <h2>
+                Schedule Your <br>
+                Skin Consultation
+            </h2>
+
+            <form>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" placeholder="Phone Number" required>
+                </div>
+
+                <div class="double-field">
+
+                    <div class="input-group">
+                        <input type="date" required>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="time" required>
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+                    <textarea placeholder="Tell us your concern..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    Book Appointment
+                </button>
+
+            </form>
+
+        </div>
+
+
+
+        <!-- RIGHT CONTENT -->
+        <div class="consultation-content">
+
+            <span class="mini-tag blue">
+                About DermaGLO
+            </span>
+
+            <h2>
+                Advanced Aesthetic & <br>
+                Skin Care Expertise
+            </h2>
+
+            <div class="line"></div>
+
+            <p>
+                Welcome to DermaGLO Laser Skin Clinic — a premium aesthetic and dermatology clinic focused on evidence-based skin, hair, laser, and rejuvenation treatments for both women and men.
+            </p>
+
+            <p>
+                Founded by Dr. Vinita Sharma, DermaGLO specializes in advanced procedures including laser treatments, injectables, skin rejuvenation, hair restoration, anti-aging therapies, PRP, HIFU, medi facials, and personalized aesthetic care using US FDA approved technologies.
+            </p>
+
+            <p>
+                With more than 17 years of experience in medical aesthetics and clinical dermatology, the clinic focuses on natural, safe, and scientifically guided treatment approaches tailored for individual skin concerns.
+            </p>
+
+            <!-- FEATURES -->
+            <div class="feature-grid">
+
+                <div class="feature-card">
+                    <h4>17+ Years</h4>
+                    <span>Medical Aesthetic Expertise</span>
+                </div>
+
+                <div class="feature-card">
+                    <h4>US FDA</h4>
+                    <span>Approved Technologies</span>
+                </div>
+
+                <div class="feature-card">
+                    <h4>Advanced</h4>
+                    <span>Laser & Injectables</span>
+                </div>
+
+                <div class="feature-card">
+                    <h4>Personalized</h4>
+                    <span>Skin Care Protocols</span>
+                </div>
+
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="button-wrap">
+
+                <a href="#" class="outline-btn">
+                    Download CV
+                </a>
+
+                <a href="https://dermaglo.in/contact/" class="primary-btn">
+                    Get In Touch
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#edf5fb;
+}
+
+
+/* SECTION */
+
+.consultation-section{
+    padding:100px 6%;
+    overflow:hidden;
+}
+
+.consultation-wrapper{
+    display:grid;
+    grid-template-columns:0.9fr 1.1fr;
+    gap:70px;
+    align-items:center;
+}
+
+
+/* LEFT FORM */
+
+.consultation-form-box{
+    background:#ffffff;
+    padding:50px;
+    border-radius:35px;
+    box-shadow:
+    0 25px 60px rgba(0,0,0,0.08);
+
+    position:relative;
+}
+
+.consultation-form-box::before{
+    content:"";
+    position:absolute;
+    width:180px;
+    height:180px;
+    background:#dff3ff;
+    border-radius:50%;
+    top:-80px;
+    right:-80px;
+}
+
+.mini-tag{
+    display:inline-block;
+    padding:10px 18px;
+    background:#eff8ff;
+    color:#0087db;
+    border-radius:50px;
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:22px;
+    position:relative;
+    z-index:2;
+}
+
+.consultation-form-box h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:58px;
+    line-height:1;
+    color:#12284a;
+    margin-bottom:35px;
+    position:relative;
+    z-index:2;
+}
+
+.input-group{
+    margin-bottom:22px;
+    position:relative;
+    z-index:2;
+}
+
+.input-group input,
+.input-group textarea{
+    width:100%;
+    border:none;
+    background:#f7fbff;
+    padding:18px 22px;
+    border-radius:18px;
+    font-size:15px;
+    outline:none;
+    border:1px solid transparent;
+    transition:0.3s ease;
+}
+
+.input-group textarea{
+    height:140px;
+    resize:none;
+}
+
+.input-group input:focus,
+.input-group textarea:focus{
+    border-color:#4db7f2;
+    background:#fff;
+    box-shadow:0 0 0 5px rgba(0,136,219,0.08);
+}
+
+.double-field{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+}
+
+.submit-btn{
+    width:100%;
+    border:none;
+    padding:18px;
+    border-radius:18px;
+    background:linear-gradient(135deg,#0087db,#00b4ff);
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+.submit-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 35px rgba(0,136,219,0.25);
+}
+
+
+
+/* RIGHT CONTENT */
+
+.consultation-content h2{
+    font-family:'Cormorant Garamond',serif;
+    font-size:72px;
+    line-height:1;
+    color:#10284c;
+    margin-bottom:22px;
+}
+
+.line{
+    width:100px;
+    height:5px;
+    border-radius:50px;
+    background:#00a2ec;
+    margin-bottom:35px;
+}
+
+.consultation-content p{
+    font-size:18px;
+    line-height:2;
+    color:#58708a;
+    margin-bottom:22px;
+}
+
+
+/* FEATURES */
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:18px;
+    margin-top:40px;
+}
+
+.feature-card{
+    background:#fff;
+    padding:28px;
+    border-radius:24px;
+    box-shadow:
+    0 12px 30px rgba(0,0,0,0.05);
+}
+
+.feature-card h4{
+    font-size:28px;
+    color:#0b76c7;
+    margin-bottom:8px;
+}
+
+.feature-card span{
+    color:#5f7487;
+    font-size:15px;
+}
+
+
+/* BUTTONS */
+
+.button-wrap{
+    display:flex;
+    gap:18px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.primary-btn,
+.outline-btn{
+    padding:16px 30px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s ease;
+}
+
+.primary-btn{
+    background:linear-gradient(135deg,#0087db,#00b4ff);
+    color:#fff;
+}
+
+.primary-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 35px rgba(0,136,219,0.25);
+}
+
+.outline-btn{
+    border:2px solid #0087db;
+    color:#0087db;
+    background:#fff;
+}
+
+.outline-btn:hover{
+    background:#0087db;
+    color:#fff;
+}
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:1200px){
+
+    .consultation-wrapper{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .consultation-section{
+        padding:70px 20px;
+    }
+
+    .consultation-form-box{
+        padding:35px 25px;
+        border-radius:28px;
+    }
+
+    .consultation-form-box h2{
+        font-size:42px;
+    }
+
+    .consultation-content h2{
+        font-size:48px;
+    }
+
+    .consultation-content p{
+        font-size:16px;
+        line-height:1.9;
+    }
+
+    .double-field{
+        grid-template-columns:1fr;
+    }
+
+    .feature-grid{
+        grid-template-columns:1fr;
+    }
+
+    .button-wrap{
+        flex-direction:column;
+    }
+
+    .primary-btn,
+    .outline-btn{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+</style>
